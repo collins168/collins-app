@@ -26,7 +26,7 @@ export default function Todolist(){
         <form onSubmit={submitButton}>
             <input type="text" placeholder="Enter task." value={item} onChange={(e) =>setItem(e.target.value)}/>
             <input type="text" placeholder="Enter image URL." value={imageURL} onChange={(e) => setImageURL(e.target.value)}/>
-            <button disabled={!item.trim('') || !imageURL.trim()}>Add</button>
+            <button disabled={!item.trim('') || !imageURL.trim()}>Add</button>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut pariatur blanditiis nisi similique commodi iure! Alias eveniet neque dignissimos.
         </form>
         <ul>
             {items.map((item, index) =>(
